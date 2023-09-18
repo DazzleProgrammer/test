@@ -1,0 +1,42 @@
+*{
+    font-style: serif;
+}
+.container{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/012/854/848/non_2x/abstract-banner-with-yellow-and-blue-color-empty-backgroud-template-for-media-promotion-or-web-banner-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    max-width: 100%;
+    color: white;
+    padding-bottom: 6%;
+}
+.col{
+    text-align: center;
+    margin: 4%;
+    padding: 1%;
+}
+h1{
+    font-weight: 700;
+    font-size: 250%;
+}
+img{
+    width: 80%;
+    height: 80%;
+   border: 10px solid yellowgreen;
+   border-radius: 50px;
+   margin-top: 18%;
+}
+h6{
+    border: 1px solid white ;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+@media only screen and (max-width:770px) {
+   .row{
+      display: grid;
+      text-align: center;
+   }
+  }

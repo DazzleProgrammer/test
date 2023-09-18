@@ -1,0 +1,538 @@
+
+span {
+  color: rgb(32, 92, 72);
+}
+
+.container {
+  margin-top: 50px;
+  background-image: url(https://cdn.pixabay.com/photo/2019/08/06/22/48/artificial-intelligence-4389372_1280.jpg);
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  background-color: rgb(207, 200, 200);
+}
+h1,
+h2,
+p {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+h2:hover {
+  text-align: center;
+  color: darkgray;
+}
+
+.our-story {
+  color: #7f6b6b;
+  padding: 20px 0;
+  text-align: center;
+}
+.story {
+  background-image: url(https://cdn.pixabay.com/photo/2017/11/07/08/05/turn-on-2925962_1280.jpg);
+}
+
+.story-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.story-text {
+  flex: 0 0 55%;
+  text-align: left;
+}
+
+.story-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.story-text:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.story-image {
+  flex: 0 0 40%;
+  box-shadow: 0 4px 8px rgba(238, 255, 5, 0.2);
+}
+
+.story-image img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .story-content {
+    flex-direction: column;
+  }
+
+  .story-text,
+  .story-image {
+    flex: 100%;
+    text-align: center;
+  }
+}
+
+.our-values {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.values-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.value {
+  flex: 0 0 calc(33.33% - 30px);
+  background-color: #333;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: left;
+}
+
+.value:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.value-icon {
+  width: 80%;
+  height: 60%;
+  margin-bottom: 20px;
+}
+
+.value-icon img {
+  max-width: 100%;
+}
+
+.value h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.value p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 768px) {
+  .value {
+    flex: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+.expertise {
+  padding: 80px 0;
+  text-align: center;
+}
+.Expertise {
+  background-image: url(https://cdn.pixabay.com/photo/2019/08/26/05/21/network-4430786_1280.jpg);
+}
+
+.marquee-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee {
+  display: flex;
+  animation: marquee-scroll 15s linear infinite;
+}
+
+.service {
+  flex: 0 0 calc(33.33% - 30px);
+  background-color: #333;
+  border-radius: 10px;
+  margin: 0 15px;
+  padding: 40px;
+  text-align: left;
+}
+
+.service h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .service {
+    flex: 100%;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+}
+
+.meet-the-team {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.team-member {
+  flex: 0 0 calc(33.33% - 30px);
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  margin-bottom: 40px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-member:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.team-member img {
+  width: 100%;
+  border-radius: 50%;
+  max-width: 180px;
+  margin: 0 auto 20px;
+}
+
+.team-member h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.team-member p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 768px) {
+  .team-member {
+    flex: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+.meet-the-team {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.team-member {
+  position: relative;
+  width: 320px;
+  border-radius: 10px;
+  margin: 20px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.team-member:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.team-member img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.member-details {
+  padding: 20px;
+  text-align: left;
+}
+
+.member-details h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.member-details p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.card-design1 {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.card-design2 {
+  background-color: #333;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .team-member {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
+
+.team {
+  background-image: url(https://cdn.pixabay.com/photo/2017/07/23/18/12/movement-2532158_1280.jpg);
+  margin: 35px;
+}
+
+.team.dark-theme {
+  background-color: #252525;
+  color: #ffffff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.team-card {
+  background-color: #333333;
+  border: 2px solid whitesmoke;
+  transition: transform 0.3s;
+}
+
+.team-card:hover {
+  transform: translateY(-10px);
+}
+
+.card-img-top img {
+  width: 100%;
+  height: auto;
+}
+
+.card-title {
+  font-size: 24px;
+  margin-top: 15px;
+}
+
+.card-text {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+
+
+
+
+.stories {
+  background-image: url("https://cdn.pixabay.com/photo/2013/07/12/12/19/two-145574_1280.png"); /* Replace with your background image path */
+
+  background-position: center;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  
+  
+  padding: 0;
+}
+
+.success {
+  background: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  margin-top: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.success:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+.success:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.success h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.success p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.comm{
+    background-image: url(https://cdn.pixabay.com/photo/2020/08/09/14/25/business-5475663_1280.jpg);
+}
+
+.community {
+  background: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  margin-top: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.community:before {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+.community:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.community h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.community p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.Innovation{
+    background-image: url(https://cdn.pixabay.com/photo/2019/03/27/13/33/technology-4085029_1280.jpg);
+}
+.future {
+    background: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    margin-top: 40px;
+    position: relative;
+    overflow: hidden;
+  }
+  .future:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
+  .future:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  .future h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .future p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+
+  .Info{
+    background-image: url(https://cdn.pixabay.com/photo/2014/09/19/16/19/enter-452718_1280.jpg);
+    margin-top: 50px;
+  }
+
+  .contact {
+    background: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    margin-top: 40px;
+    position: relative;
+    overflow: hidden;
+  }
+  .contact:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
+  .contact:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  .contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .contact p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  .contact-info {
+    margin-top: 30px;
+  }
+  .contact-info p {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .social-icons {
+    margin-top: 15px;
+  }
+  .social-icons a {
+    display: inline-block;
+    margin-right: 15px;
+    color: #ffffff;
+    font-size: 24px;
+  }
+

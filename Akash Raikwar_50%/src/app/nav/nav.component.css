@@ -1,0 +1,20 @@
+.ico i{
+    padding: 10px;
+}
+.bi-search{
+    border: 1px solid rgb(180, 179, 179);
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.bi-heart{
+    border: 1px solid rgb(180, 179, 179);
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.bi-cart{
+    border: 1px solid rgb(180, 179, 179);
+    border-radius: 100%;
+    padding: 10px;
+}

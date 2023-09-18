@@ -1,0 +1,144 @@
+#navbarNav li{
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.navbar-brand{
+    margin-left: 50px;
+    padding-left: 20px;
+}
+
+
+.container-fluid {
+    position: relative;
+    background-image: url('pics/bg.avif');
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 100px;
+}
+
+.overlay-text p{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.overlay-text{
+    padding: 50px;
+}
+
+.overlay-text button{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+}
+
+#courses{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+#view{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+}
+
+.card button{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+#pics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.image1 {
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+
+.image2 {
+    grid-column: 2 / 3;
+    grid-row: 2;
+}
+
+#info h2{
+    font-weight: bolder;
+}
+
+#info p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+#info ul{
+    list-style: none;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li{
+    margin-top: 10px;
+}
+
+#bg{
+    color: blue;
+    margin-right: 10px;
+}
+
+#about, #choose{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info{
+    list-style: none;
+}
+
+.footer-nav li {
+    margin-bottom: 10px;
+}
+
+.social-media {
+    list-style: none;
+    padding-top: 10px;
+}
+
+.social-media li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+}

@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffffda;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+}
+.cont{
+    background-color: rgb(63, 63, 184);
+    color: white;
+}
+/*background image */
+.background {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* width: 100vh; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* content on the left side */
+.content {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 20px;
+    color: #fff;
+    max-width: 400px;
+}
+
+.content h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.edu{
+    color: blue;
+}
+
+.content p {
+    font-size: 12px;
+}
+.started{
+    padding: 12px;
+    background-color: blue;
+    color: white;
+}
+.offer{
+    background-color: blue;
+    padding-inline: 5px;
+    border-radius: 10px;
+}
+/* card section */
+.container{
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+.card {
+    max-width: 200px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+
+.card-icon {
+    padding: 10px;
+    text-align: center;
+}
+
+.card-icon img {
+    width: 64px;
+    height: 64px;
+}
+
+
+.card-content {
+    padding: 10px;
+}
+
+.card-content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.contentflex{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.rightflex{
+    display: flex;
+    gap: 15px;
+}
+
+.courses{
+    text-decoration: none;
+}
+
+.learn-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.learn-more-button:hover {
+    background-color: #0056b3;
+}
+
+/* card responsive */
+@media screen and (max-width: 768px) {
+    .card {
+        width: 90%;
+    }
+}
+/* hero section */
+.grid {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style each image */
+.image {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+.heroflex{
+    display: flex;
+}

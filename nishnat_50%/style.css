@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header {
+    background-color: rgb(145, 144, 143);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+header .logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: aqua;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li a {
+    display: inline-block;
+    color: white;
+    padding: 5px 0;
+    margin: 0 10px;
+    border: 3px solid transparent;
+    text-transform: uppercase;
+    transition: 0.2s;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: none;
+}
+
+header nav ul li a:hover{
+    border-bottom-color: dodgerblue;
+    padding: 10px;
+    background-color: rgb(129, 129, 241);
+}
+
+.lab {
+    cursor: pointer;
+    display: none;
+}
+
+.lab div {
+    width: 30px;
+    height: 3px;
+    margin: 5px 0;
+    background-color: aquamarine;
+}
+
+/* footer */
+
+.con{
+    text-align: center; 
+    background-color: rgb(169, 169, 218);
+
+}
+.con input{
+    height: 30px;
+
+}
+.con button{
+    height: 30px;
+    width: 100px;
+}
+
+.icon{
+    font-size: 30px;
+    padding: 15px;
+
+}
+.icon a:hover{
+    background-color: white;
+    color: brown;
+}
+.fo{
+    width: auto;
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.dis{
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+}
+.dis h4{
+    color: white;
+}
+
+.d{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    background-color: rgb(156, 156, 236);
+}
+.i{
+    height: 122px;
+    background-color: azure;
+    text-align: center;
+    
+}
+.d1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(25, 179, 127) !important;
+}
+
+.i1{
+    font-size: 25px;
+    color: white;
+}
+.div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5opx;
+
+}
+.div img, div{
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+    
+}
+
+
+@media only screen and (max-width: 913px) {
+    header .logo{
+        font-size: 25px;
+         padding: 0px;
+    }
+
+    .lab {
+        display: block;
+    }
+
+    header nav {
+        position: absolute;
+        width: 100%;
+        left: -100%;
+        top: 70px;
+        width: 100%;
+        background: #9b9898;
+        padding: 30px;
+        transition: 0.3s;
+    }
+
+    header #nav_check:checked~nav {
+        left: 0;
+    }
+
+    header nav ul {
+        display: block;
+    }
+}
+
+    @media only screen and (max-width: 500px){
+        header .logo{
+            font-size: 20px;
+             padding: 0px;
+        }
+
+    header nav ul li a {
+        margin: 5px 0;
+    }
+    .dis{
+        grid-template-columns: 1fr;
+    }
+    .d{
+        grid-template-columns: 1fr;
+
+    }
+    .d1{
+        grid-template-columns: 1fr;
+    }
+    .div{
+        grid-template-columns: 1fr;
+}
+    }

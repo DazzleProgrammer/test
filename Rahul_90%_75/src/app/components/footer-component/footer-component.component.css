@@ -1,0 +1,23 @@
+
+.mainDiv{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    padding-left: 3%;
+}
+.mainDiv>div{
+    width: calc(24%);
+}
+input{
+    width: 100%;
+}
+@media (max-width: 768px){
+    .mainDiv{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .mainDiv>div{
+        width: calc(48%);
+    }
+}

@@ -1,0 +1,21 @@
+.logo{
+    height: 100px;
+    width: 150px;
+}
+.navbar{
+    background-color: azure;
+}
+
+.nav{
+    justify-content: end;
+}
+
+.nav-link:hover{
+    color: aqua;
+}
+
+
+.navbar-nav .nav-link {
+    font-size: 20px;
+    
+}

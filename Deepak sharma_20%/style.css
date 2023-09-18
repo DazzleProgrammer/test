@@ -1,0 +1,159 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.navbar-brand{
+    width: 38%;
+}
+
+.nav-item a{
+    color: black;
+    font-size: 0.9rem;
+}
+
+button{
+    border: 2px solid rgb(25, 25, 216);
+    height: 35px;
+    width: 135px;
+    color: white;
+    background-color: rgb(25, 25, 216);
+    border-radius: 50px;
+    font-size: 0.9rem;
+}
+
+.design-image img{
+    width: 100%;
+}
+
+#hero-image{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-content{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 135px;
+}
+
+.btn1{
+    height: 30px;
+    width: 80px;
+    border-radius: 25px;
+    
+}
+
+.image-content h6{
+    color: white;
+    display: inline-block;
+}
+
+.image-content h1{
+    color: white        ;
+}
+
+.image-content p{
+    color: white;
+}
+
+.image-content span{
+    color: blue;
+}
+
+.image-content p{
+    color: rgb(57, 55, 55);
+}
+
+.btn2{
+    border-radius: 5px;
+}
+
+.image{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 30px;
+}
+
+.image img{
+    border-radius: 50%;
+    border: 15px solid white;
+}
+
+@media screen and (max-width: 1300px){
+    .image{
+        margin-left: 650px;
+}
+.image-content{
+    margin-top: 80px;
+    margin-left: 135px;
+}
+    }    
+
+@media screen and (max-width: 750px){
+    .card-box{
+        flex-wrap: wrap;
+    }
+}
+
+.courses{
+    margin-left: 130px;
+    margin-top: 20px;
+    color: blue;
+}
+
+.courses h1{
+    color: black;
+    font-size: 2rem;
+}
+
+.card-box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.card1{
+    height: 500px;
+    width: 2000px;
+    margin: 20px;
+}
+
+.card1 img{
+    width: 20%;
+    margin-left: 100px;
+}
+
+.card1 h5{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.card1 p{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card1 button{
+    margin-left: 55px;
+}
+
+@media screen and (max-width: 700px){
+    .service-title p{
+        text-align: center;
+        font-size: 3rem;
+    }    
+}
+@media screen and (max-width: 750px){
+    .card-box{
+        flex-wrap: wrap;
+    }
+}

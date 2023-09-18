@@ -1,0 +1,39 @@
+.card {
+  border: none;
+}
+
+.cont {
+  position: absolute;
+  margin-top: -500px;
+  color: white;
+  margin-left: 50px;
+  width: 50%;
+}
+
+.intro {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.intro p {
+  width: 80%;
+}
+
+.cover {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZucObiXdRlIxic1qsmwrN_CLLU6K9j972mw);
+  /* height: 600px; */
+  /* width: 100%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cover-dark {
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 600px;
+  width: 100%;
+
+  z-index: 1;
+}

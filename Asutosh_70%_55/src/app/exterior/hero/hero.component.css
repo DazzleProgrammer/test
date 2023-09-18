@@ -1,0 +1,24 @@
+
+.container{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/270/246/381/machine-home-plan-pencils-wallpaper-preview.jpg);
+    opacity: 0.9;
+    margin-top: 20px;;
+}
+
+
+img{
+    width: 650px;
+    margin: 20px;
+}
+.btn:hover{
+    color: yellowgreen;
+}
+h1{
+    margin-top: 80px;
+    color: lightblue;
+    font-size: 44px;
+}
+p{
+    color: rgb(247, 247, 5);
+    font-size: 24px;
+}

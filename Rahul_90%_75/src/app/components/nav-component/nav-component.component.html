@@ -1,0 +1,39 @@
+<header>
+    <nav>
+        <div class="container d-flex justify-content-between">
+            <div>
+                <div>
+    
+                </div>
+                <h1>
+                    <span><i class="fa-solid fa-school" style="color: blue;"></i></span>
+                    EDURA
+                </h1>
+            </div>
+            <div class="navRightDiv" [ngClass]="{'open': isNavOpen}">
+                <div class="navRightDiv_1">
+                    <ul>
+                        <li>HOME</li>
+                        <li>Courses</li>
+                        <li>Teachers</li>
+                        <li>Pages</li>
+                        <li>Blog</li>
+                        <li>contact</li>
+                    </ul>
+                    <div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <div>
+                        <button>CONTACT US <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+            </div>
+            </div>
+           
+        </div>
+        <div class="menu-icon" (click)="toggleNavbar()">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+    </nav>
+</header>

@@ -1,0 +1,51 @@
+
+.intro {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.intro-text {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.statement {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.section {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.header {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.item {
+    text-align: left;
+    margin-bottom: 20px;
+}
+.item:hover{
+    background-color: grey;
+    color: #fff;
+}
+
+.item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.item p {
+    font-size: 1.2rem;
+    color: #555;
+}
+.item img {
+    max-width: 100%;
+    height: auto;
+}

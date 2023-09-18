@@ -1,0 +1,53 @@
+
+.background {
+    height: 35%;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+
+.rightDiv {
+    height: 100%;
+    display: flex;
+    /* margin-top: 8%; */
+}
+
+.leftDiv>img {
+    width: 100%;
+    height: 100%;
+}
+.rightDiv>div{
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 15px;
+}
+
+
+ul{
+    margin-top: 10%;
+}
+.card{
+    margin: 5px;
+    padding: 10px;
+    border: 3px solid gray;
+    border-left: 6px solid blue;
+}
+
+/* Media Queries for Responsiveness */
+
+
+@media (max-width: 768px) {
+
+    .rightDiv>div>h2 {
+        font-size: 35px;
+    }
+
+    .rightDiv>div>p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 500px) {
+    .rightDiv>div {
+        margin-bottom: 10%;
+    }
+}

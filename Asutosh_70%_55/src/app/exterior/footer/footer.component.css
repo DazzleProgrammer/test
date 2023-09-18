@@ -1,0 +1,26 @@
+.container{
+    margin-top: 40px;
+    background-image: url(https://images.unsplash.com/photo-1522404419647-18cb51cc5c7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fE91dGRvb3IlMjBMaXZpbmclMjBTcGFjZXMlMjBkZXNpZ258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60);
+}
+
+ h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+
+.icons li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.icons i {
+    font-size: 24px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}

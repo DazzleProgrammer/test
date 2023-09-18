@@ -1,0 +1,182 @@
+.logo{
+    display: inline-block;
+    margin: 25px 10px;
+    height: 50px;
+    margin : 0px;
+    padding: 0px;
+    position:inherit;
+
+}
+.navbar {
+    background-color: #87b8ea; 
+}
+.navbar-brand {
+    color: white; 
+}
+.navbar-nav {
+    margin: 0 auto;
+    text-align: center;
+}
+.navbar-nav .nav-link {
+    color: white; 
+    padding: 0 15px;
+}
+.navbar .form-inline {
+    margin-right: 10px;
+}
+.navbar .btn-contact {
+    background-color: #FF5733; /* Change the button background color */
+    color: white; /* Change the button text color */
+    border: none;
+}
+.navbar .btn-contact:hover {
+    background-color: #FF3300; /* Change the button background color on hover */
+}
+
+/* Style the Company Information Column */
+/* Set the background image */
+/* body {
+    background-image: url('back.webp'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-color: rgba(255, 255, 255, 0.7); 
+} */
+
+/* Style the Company Information Column */
+.col-md-6:first-child {
+    background-color: rgba(255, 255, 255, 0.8); /* Background color with transparency */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the Company Information Text */
+.col-md-6:first-child h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.col-md-6:first-child p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Style the Image Column */
+.col-md-6:last-child {
+    text-align: center;
+}
+
+/* Add some margin to the top of the container */
+.container {
+    margin-top: 20px;
+}
+
+
+.col-md-6:first-child {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#button-1{
+    background: #87b8ea;
+    border: #87b8ea;
+    border-radius: 15%;
+}
+
+#learn{
+    color: #6984a0;
+    font-size: 15px;
+
+}
+#catalog{
+    margin-left: 2%;
+    margin-top: 3%;
+    position: absolute;
+}
+#cards{
+    margin-top: 3%;
+    margin-left: 20%;
+}
+
+#content1{
+    font-size: 1rem;
+}
+#pr2{
+    color: #007bff;
+    font-size: 0.5rem;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.container h4 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.about-section img {
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.social-icons li {
+    margin-right: 15px;
+}
+
+.quick-links, .resources {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links li, .resources li {
+    margin-bottom: 10px;
+}
+
+/* Subscribe Styles */
+.subscribe input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.subscribe button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscribe button:hover {
+    background-color: #0056b3;
+}

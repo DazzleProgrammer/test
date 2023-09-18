@@ -1,0 +1,48 @@
+.color{
+    color: blue !important;
+}
+
+.box{
+    border-top: 1px solid grey;
+}
+
+.fa-desktop{
+    background-color: rgb(234, 233, 233);
+    padding: 10px;
+    border-radius: 50px;
+}
+.fa-comments{
+    background-color: rgb(234, 233, 233);
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.fa-camera{
+    background-color: rgb(234, 233, 233);
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.box1{
+    background-color: white;
+
+}
+
+.ca{
+    background-color:rgb(235, 237, 239);
+}
+
+
+@media screen and (max-width: 480px) {
+    .box1 {
+      margin: 10px !important;
+    }
+    .ig{
+        margin: 10px !important;
+        border-radius: 0 !important;
+    }
+
+    .ca1{
+        margin: 10px !important;
+    }
+  }

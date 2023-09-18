@@ -1,0 +1,66 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Neuton", serif;
+  font-family: "Playfair Display", serif;
+}
+/* navbar */
+
+.navbar {
+  background-color: white;
+}
+.navbar-items a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  gap: 3px;
+}
+.navbar-items .icon {
+  border: 1px solid gray;
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 100%;
+}
+.navbar-items a select {
+  text-decoration: none;
+  border-color: white;
+}
+.navbar-toggler {
+  display: none;
+}
+
+/* banner */
+
+.banner {
+  position: relative;
+  width: 100%;
+  padding-bottom: 10%;
+  background: linear-gradient(
+      to bottom,
+      rgba(10, 10, 21, 0.457),
+      rgba(21, 27, 38, 0.418)
+    ),
+    url("https://www.betterup.com/hubfs/Imported_Blog_Media/employee%20resource%20group%20blog%20image-1.png")
+      center/cover no-repeat;
+}
+
+
+
+.carousel-item img {
+    border-radius: 100%;
+    border: 5px solid white;
+}
+/* responsive */
+@media only screen and (max-width: 992px) {
+  .navbar-toggler {
+    display: block;
+  }
+  .navbar-items {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .ban-txt {
+    display: none !important;
+  }
+}

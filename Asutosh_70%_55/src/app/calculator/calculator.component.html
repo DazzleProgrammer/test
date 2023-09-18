@@ -1,0 +1,39 @@
+
+
+  
+
+
+<div class="container">
+    
+  <h1 class="text-center">Calculator</h1>
+    <div class="calculator dark">
+        <input type="text"  [(ngModel)]="input" class="form-control mb-3" >
+      <div class="row">
+        <button class="btn btn-secondary col" (click)="addInput('1')">1</button>
+        <button class="btn btn-secondary col" (click)="addInput('2')">2</button>
+        <button class="btn btn-secondary col" (click)="addInput('3')">3</button>
+        <button class="btn btn-primary col" (click)="Operation('+')">+</button>
+      </div>
+      <div class="row">
+        <button class="btn btn-secondary col" (click)="addInput('4')">4</button>
+        <button class="btn btn-secondary col" (click)="addInput('5')">5</button>
+        <button class="btn btn-secondary col" (click)="addInput('6')">6</button>
+        <button class="btn btn-primary col" (click)="Operation('-')">-</button>
+      </div>
+      <div class="row">
+        <button class="btn btn-secondary col" (click)="addInput('7')">7</button>
+        <button class="btn btn-secondary col" (click)="addInput('8')">8</button>
+        <button class="btn btn-secondary col" (click)="addInput('9')">9</button>
+        <button class="btn btn-primary col" (click)="Operation('*')">*</button>
+      </div>
+      <div class="row">
+        <button class="btn btn-secondary col" (click)="addInput('0')">0</button>
+        <button class="btn btn-secondary col" (click)="clearInput()">C</button>
+        <button class="btn btn-success col" (click)="calculate()">=</button>
+        <button class="btn btn-primary col" (click)="Operation('/')">/</button>
+      </div>
+      
+    </div>
+</div>
+
+  

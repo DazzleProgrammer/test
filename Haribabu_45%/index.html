@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Edura</title>
+    <style>
+        .nav-link{
+            font-weight: bold;
+        }
+        ul{
+            justify-content: center!important;
+        }
+    .carousel-item img{
+       height: 42rem;
+       filter: brightness(60%);
+      }
+      .carousel-caption h1
+      {
+        font-size: 50px;
+        font-weight: bold;
+      }
+      .carousel-caption p
+      {
+        font-size: 30px;
+        font-weight: bold;
+      }
+      .carousel-caption{
+        transform: translateY(-100%);
+      }
+      .course{
+        padding: 5%;
+      }
+      .course h5{
+        color: blue;
+      }
+      .course h3{
+        margin-bottom: 2%;
+      }
+      .card{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      }
+      .col-sm-6 img{
+        border-radius: 4%;
+      }
+      .about{
+          padding-bottom:5%;
+      }
+      .bottom{
+        margin-top: 5%;
+        padding: 5%;
+        background: url(images/footer/footer.png);
+        
+      }
+      .details{
+             background: rgba(255, 255, 255, 0.28);
+             border-radius: 16px;
+             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+             backdrop-filter: blur(7.1px);
+             -webkit-backdrop-filter: blur(7.1px);
+             border: 1px solid rgba(255, 255, 255, 0.3);
+      }
+      #b1{
+            height: 50px;
+            width: 50px;
+            background: rgba(255, 255, 255, 0.28);
+            border-radius: 50%;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(7.1px);
+            -webkit-backdrop-filter: blur(7.1px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            
+      }
+      .con{
+        display: flex;
+        justify-content: space-evenly;
+      }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> 
+            <img src="images/logo/logo.svg" alt="Logo"  class="d-inline-block align-text-top">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar1">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#course">COURSES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#recent">TEACHERS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">PAGES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">BLOG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+              <button type="button" class="btn btn-light"><i class="fa-solid fa-magnifying-glass fa-xl" style="color: #000000;"></i></button>
+              <button type="button" class="btn btn-light"><i class="fa-regular fa-heart fa-xl" style="color: #000000;"></i></button>
+              <button type="button" class="btn btn-light"><i class="fa-solid fa-cart-shopping fa-xl" style="color: #000000;"></i></button>
+              <button type="button" class="btn btn-primary">CONTACT US <i class="fa-solid fa-arrow-right fa-sm" style="color: #ffffff;"></i></button>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/carousal/1.avif" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>World's Best Online Education Institute</h1>
+              <p>Education is knowledge and divine</p>
+              <button type="button" class="btn btn-primary">GET STARTED <i class="fa-solid fa-arrow-right fa-sm" style="color: #ffffff;"></i></button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/carousal/2.avif" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>World's Best Online Education Institute</h1>
+                <p>Education is knowledge and divine</p>
+                <button type="button" class="btn btn-primary">GET STARTED <i class="fa-solid fa-arrow-right fa-sm" style="color: #ffffff;"></i></button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/carousal/3.avif" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>World's Best Online Education Institute</h1>
+                <p>Education is knowledge and divine</p>
+                <button type="button" class="btn btn-primary">GET STARTED <i class="fa-solid fa-arrow-right fa-sm" style="color: #ffffff;"></i></button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="course">
+        <h5><i class="fa-solid fa-book" style="color: #005eff;"></i> COURSE CATEGORIES</h5>
+        <h3>Explore Top Course Categories</h3>
+        <div class="container text-center">
+            <div class="row">
+              <div class="col-sm-3"  >
+                <div class="card" >
+                 <div class="card-body">
+                    <h4 class="card-title"><img src="images/couses/1.svg" alt=""></h4>
+                    <h3 class="card-subtitle mb-2 text-body-secondary">UI/UX</h3>
+                    <p class="card-text">36+ Courses</p>
+                    <button type="button" class="btn btn-primary">LEARN MORE <i class="fa-solid fa-arrow-right fa-sm" style="color: #ffffff;"></i></button>
+                </div>
+            </div>
+              </div>
+              <div class="col-sm-3" >
+                <div class="card" >
+                 <div class="card-body">
+                    <h4 class="card-title"><img src="images/couses/2.svg" alt=""></h4>
+                    <h3 class="card-subtitle mb-2 text-body-secondary">Business</h3>
+                    <p class="card-text">36+ Courses</p>
+                    <button type="button" class="btn btn-primary">LEARN MORE <i class="fa-solid fa-arrow-right fa-sm" style="color: #ffffff;"></i></button>
+                </div>
+            </div>
+              </div>
+              <div class="col-sm-3" >
+                <div class="card" >
+                 <div class="card-body">
+                    <h4 class="card-title"><img src="images/couses/3.svg" alt=""></h4>
+                    <h3 class="card-subtitle mb-2 text-body-secondary">Photography</h3>
+                     <p class="card-text">36+ Courses</p>
+                     <button type="button" class="btn btn-primary">LEARN MORE <i class="fa-solid fa-arrow-right fa-sm" style="color: #ffffff;"></i></button>
+                </div>
+            </div>
+              </div>
+              <div class="col-sm-3" >
+                <div class="card">
+                 <div class="card-body">
+                    <h4 class="card-title"><img src="images/couses/2.svg" alt=""></h4>
+                    <h3 class="card-subtitle mb-2 text-body-secondary">Digital Marketing</h3>
+                    <p class="card-text">36+ Courses</p>
+                    <button type="button" class="btn btn-primary">LEARN MORE <i class="fa-solid fa-arrow-right fa-sm" style="color: #ffffff;"></i></button>
+                </div>
+            </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="about">
+        <div class="container text-center">
+            <div class="row">
+              <div class="col-sm-6">
+                <img src="images/about/1.avif" alt="boy with laptop">
+              </div>
+              <div class="col-sm-6 abotus">
+                <h5 style="text-align: left; color: blue;"><i class="fa-solid fa-book" style="color: #005eff;"></i> ABOUT OUR UNIVERSITY</h5>
+                <h3 style="text-align: left;">Explore Top Course Categories</h3>
+                <h4 style="text-align: justify;line-height: 1.5;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, vero omnis? Rem corporis, obcaecati dicta esse ducimus modi velit dolore debitis perferendis harum. Consequatur in, laborum quae fuga delectus hic.</h4>
+                <h4 style="text-align: justify;line-height: 1.5;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, vero omnis? Rem corporis, obcaecati dicta esse ducimus modi velit dolore debitis perferendis harum. Consequatur in, laborum quae fuga delectus hic. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h4>
+            </div>
+            </div>
+        </div>
+      </div>
+      <div class="why">
+        <div class="container text-center">
+            <div class="row">
+              <div class="col-sm-6">
+                <img src="images/about/2.jpg" alt="girl with laptop" width="90%">
+                <div class="t" style="text-align: left;transform: translateY(-500%);background-color: #ffffff;width: fit-content; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;z-index: 3;border-radius: 5px;">
+                    <h3>10k+ Students</h3>
+                </div>
+                <button type="button" class="btn btn-primary">GET STARTED <i class="fa-solid fa-arrow-right fa-sm" style="color: #ffffff;"></i></button>
+              </div>
+              <div class="col-sm-6 abotus">
+                <h5 style="text-align: left; color: blue;"><i class="fa-solid fa-book" style="color: #005eff;"></i> WHY CHOOSE US</h5>
+                <h3 style="text-align: justify; line-height: 1.5;">Thousands of Experts around the World are Ready to Help Us</h3>
+                <h4 style="text-align: justify;line-height: 1.5;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, vero omnis? Rem corporis, obcaecati dicta esse ducimus modi velit dolore debitis perferendis harum. Consequatur in, laborum quae fuga delectus hic.</h4>
+                <h4 style="text-align: justify;line-height: 1.5;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, vero omnis? Rem corporis, obcaecati dicta esse ducimus modi velit dolore debitis perferendis harum. Consequatur in, laborum quae fuga delectus hic. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h4>
+            </div>
+            </div>
+        </div>
+      </div>
+      <footer class="bottom">
+        <div class="con">
+            <button id="b1">
+                <i class="fa-solid fa-phone fa-xl" style="color: #ffffff;"></i>
+            </button>
+            <button id="b1">
+                <i class="fa-solid fa-message fa-xl" style="color: #ffffff;"></i>
+            </button>
+            <button id="b1">
+                <i class="fa-solid fa-location-dot fa-xl" style="color: #ffffff;"></i>            
+            </button>
+        </div>
+        <style>
+            .details{
+                padding:5%;
+                margin-top: 3%;
+                color: white;
+                display: flex;
+                justify-content: space-evenly;
+                margin-bottom: 5%;
+            }
+            .soc{
+                display: flex;
+                justify-content: space-evenly;
+                padding-top: 2%;
+            }
+        </style>
+        <div class="details">
+            <div style="width:20%">
+                <img src="images/logo/logo1.svg" alt="">
+                <p>Lorem ipsum, dolor sit amet consecvel, modi, totam dolorum magni a, id doloitia alias fugiat msuscipit.</p>
+                 <h4>Follow us on</h4>
+                 <div class="soc">
+                    <i class="fab fa-facebook fa-xl"></i>
+                    <i class="fab fa-twitter fa-xl"></i>
+                    <i class="fab fa-linkedin fa-xl"></i>
+                    <i class="fab fa-instagram fa-xl"></i>
+                 </div>          
+            </div >
+            <div>
+                <h3>Quick links</h3>
+                <ul>
+                    <li>Development</li>
+                    <li>Marketing</li>
+                    <li>Data Science</li>
+                    <li>Business</li>
+                    <li>Design</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Resoucres</h3>
+                <ul>
+                    <li>Development</li>
+                    <li>Marketing</li>
+                    <li>Data Science</li>
+                    <li>Business</li>
+                    <li>Design</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Get in Touch</h3>
+                <ul>
+                    <li>Development</li>
+                    <li>Marketing</li>
+                    <li>Data Science</li>
+                    <li>Business</li>
+                    <li>Design</li>
+                </ul>
+            </div>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

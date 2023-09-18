@@ -1,0 +1,71 @@
+.hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Style the "35% Off" label */
+.discount-label {
+    background-color: #007BFF; /* Blue background color */
+    color: #333; /* Text color */
+    padding: 5px 10px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+}
+
+
+.img1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+.content {
+    z-index: 1;
+}
+
+
+.get-started-button {
+    background-color: #007BFF; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s ease; 
+}
+
+
+.get-started-button:hover {
+    background-color: #b57336; 
+}
+
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.rounded-image {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #fff; 
+}

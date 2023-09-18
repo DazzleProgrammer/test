@@ -1,0 +1,47 @@
+nav, div{
+    /* border: 1px solid black; */
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.banner-bak{
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+}
+.banner{
+    background-image: url("https://www.cdc.gov/ncbddd/adhd/features/images/teen-studying-at-home-on-computer-700px.jpg?_=83020");
+}
+.abt-card{
+    position: relative;
+    /* background-image: url("https://thumbs.dreamstime.com/b/indian-kids-science-concept-cute-little-studying-using-microscope-diagrams-doodles-drawn-over-green-91370766.jpg"); */
+}
+.card-1{
+    /* position: absolute; */
+    
+}
+.pic-1{
+    top: 3px;
+    right: 0;
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    border-radius: 5%;
+    border: 2px solid white;
+}
+.pic-2{
+    bottom: 0px;
+    right: 0;
+    width: 60%;
+    height: 50%;
+    position: absolute;
+    border-radius: 5%;
+    border: 2px solid white;
+}
